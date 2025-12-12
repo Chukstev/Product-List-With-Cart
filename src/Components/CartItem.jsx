@@ -63,7 +63,7 @@ function CartItems() {
 
       <div className="flex justify-center items-center gap-1 p-4 bg-[#FBF8F5] rounded-2xl mt-4">
         <img
-          src="/public/icon-carbon-neutral.svg"
+          src="/icon-carbon-neutral.svg"
           alt="Carbon-neutral"
           className="h-4 w-4"
         />{" "}
@@ -73,7 +73,10 @@ function CartItems() {
         </p>
       </div>
 
-      <button onClick={() => setIsOpen(true)}  className="mt-4 w-full text-center bg-orange-700 text-white p-3 rounded-4xl">
+      <button
+        onClick={() => setIsOpen(true)}
+        className="mt-4 w-full text-center bg-orange-700 text-white p-3 rounded-4xl"
+      >
         Confirm Order
       </button>
 

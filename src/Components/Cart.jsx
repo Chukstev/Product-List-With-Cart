@@ -16,7 +16,7 @@ function Cart() {
           <div className="flex flex-col w-full justify-center items-center">
             {" "}
             <img
-              src="/public/Images/illustration-empty-cart.svg"
+              src="/Images/illustration-empty-cart.svg"
               alt="Empty Cart"
               //   className="w-32 h-32"
             />

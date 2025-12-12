@@ -29,12 +29,11 @@ function ConfirmOrderModal({ isOpen, onClose }) {
         <div>
           <div className="flex justify-between items-start">
             <div>
-              <img
-                src="/public/icon-order-confirmed.svg"
-                alt="Order-Confirmed"
-              />
+              <img src="/icon-order-confirmed.svg" alt="Order-Confirmed" />
               <p className="font-bold text-4xl">Order Confirmed</p>
-              <p className="text-sm text-amber-900">We hope you enjoy your food!</p>
+              <p className="text-sm text-amber-900">
+                We hope you enjoy your food!
+              </p>
             </div>
           </div>
         </div>
@@ -55,7 +54,11 @@ function ConfirmOrderModal({ isOpen, onClose }) {
                     <div className="flex justify-between items-center gap-2 w-full">
                       <div className="flex justify-between items-center gap-4">
                         <div>
-                          <img src={product.image.thumbnail} alt="thumbnail" className="w-10 h-10" />
+                          <img
+                            src={product.image.thumbnail}
+                            alt="thumbnail"
+                            className="w-10 h-10"
+                          />
                         </div>
                         <div>
                           {" "}
