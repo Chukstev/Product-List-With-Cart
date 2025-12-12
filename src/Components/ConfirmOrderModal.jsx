@@ -57,7 +57,7 @@ function ConfirmOrderModal({ isOpen, onClose }) {
                           <img
                             src={product.image.thumbnail}
                             alt="thumbnail"
-                            className="w-10 h-10"
+                            className="w-10 h-10 rounded-lg"
                           />
                         </div>
                         <div>
