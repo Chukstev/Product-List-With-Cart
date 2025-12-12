@@ -70,7 +70,7 @@ function ConfirmOrderModal({ isOpen, onClose }) {
                           </div>
                           <div className="flex gap-2">
                             {" "}
-                            <p className="text-xs text-red-400 font-semibold">
+                            <p className="text-xs text-orange-700 font-semibold">
                               {item.quantity}x
                             </p>
                             <p className="text-xs text-gray-400">
