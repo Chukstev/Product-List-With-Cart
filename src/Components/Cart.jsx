@@ -7,7 +7,7 @@ function Cart() {
   const isEmpty = !cart || cart.length === 0;
 
   return (
-    <div className="p-6 bg-white m-6 w-auto lg:w-96 rounded-2xl h-auto lg:sticky lg:top-6 lg:self-start shadow-gray-50 shadow-2xl">
+    <div className="p-6 bg-white mx-6 mb-6 w-auto lg:w-md lg:mt-10 rounded-2xl h-auto lg:sticky lg:top-6 lg:self-start shadow-gray-50 shadow-2xl">
       <h1 className="text-orange-700 font-bold text-lg">
         Your Cart ({cart.length})
       </h1>

@@ -12,8 +12,11 @@ function ProductList() {
 
   return (
     <div className="p-6 space-y-8 lg:w-3/4">
-      <h1 className="text-3xl font-bold">Desserts</h1>
-      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <header>
+        {" "}
+        <h1 className="text-3xl font-bold">Desserts</h1>
+      </header>
+      <main className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {data.map((item) => {
           const amount = getAmount(item.id);
           return (
@@ -45,7 +48,11 @@ function ProductList() {
                     onClick={() => addToCart(item.id)}
                     className="flex gap-2 border-1 border-orange-700 py-2 px-6 rounded-4xl mx-auto relative top-[-20px] bg-white"
                   >
-                    <img src="/Images/Icons/icon-add-to-cart.svg" /> Add To Cart
+                    <img
+                      src="/Images/Icons/icon-add-to-cart.svg"
+                      alt="Add to Cart"
+                    />{" "}
+                    Add To Cart
                   </button>
                 ) : (
                   <div className="flex justify-between items-center bg-orange-700 w-[165px] py-2 px-6 rounded-full mx-auto relative top-[-20px]">
@@ -79,7 +86,7 @@ function ProductList() {
             </div>
           );
         })}
-      </div>
+      </main>
     </div>
   );
 }
